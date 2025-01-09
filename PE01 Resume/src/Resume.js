@@ -1,14 +1,17 @@
 import React from "react";
 import "./Resume.css";
 
+// Resume component for rendering the complete resume
 const Resume = () => {
   return (
     <div className="resume">
+      {/* Header section containing name and contact details */}
       <header className="header">
         <h1>Namrata Mali</h1>
         <p>123 Main Street, Seattle USA, 12345 | (123) 456-7890 | malinamratavijay@cityuniversity.edu</p>
       </header>
 
+      {/* Education section displaying educational qualifications */}
       <section className="section">
         <h2>Education</h2>
         <div className="education">
@@ -22,6 +25,7 @@ const Resume = () => {
         </div>
       </section>
 
+      {/* Skills section listing technical and programming skills */}
       <section className="section">
         <h2>Skills</h2>
         <div className="skills">
@@ -33,6 +37,7 @@ const Resume = () => {
         </div>
       </section>
 
+      {/* Work Experience section outlining professional roles and responsibilities */}
       <section className="section">
         <h2>Work Experience</h2>
         <div className="experience">
@@ -46,15 +51,17 @@ const Resume = () => {
         </div>
       </section>
 
+      {/* Projects section showcasing personal and academic projects */}
       <section className="section">
         <h2>Projects</h2>
         <div className="projects">
+          {/* AWS Cloud Security Research Project */}
           <h3>AWS Cloud Security Research</h3>
           <p>Co-authored on a research paper based on a cloud based applications data breach incident at OnePoint patient healthcare by suggesting a AWS cloud architecture.</p>
           <p>
             Source code:{" "}
             <a
-              href="https://github.com/studentname/personal-website"
+              href="https://github.com/namumali/calculator.git"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,12 +69,13 @@ const Resume = () => {
             </a>
           </p>
 
+          {/* Tic Tac Toe Game Project */}
           <h3>Tic Tac Toe</h3>
           <p>Developed the classic Tic Tac Toe game in Python using Minimax Algorithm and Heuristics.</p>
           <p>
             Source code:{" "}
             <a
-              href="https://github.com/studentname/online-bookstore"
+              href="https://github.com/namumali/calculator.git"
               target="_blank"
               rel="noopener noreferrer"
             >

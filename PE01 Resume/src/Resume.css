@@ -1,0 +1,64 @@
+/* Base styles for the resume */
+.resume {
+  font-family: Arial, sans-serif; /* Sets the font family for the entire resume */
+  margin: 0 auto; /* Centers the resume horizontally */
+  max-width: 800px; /* Sets a maximum width for the resume */
+  line-height: 1.6; /* Improves readability by setting the line height */
+  color: black; /* Sets the text color */
+  padding: 20px; /* Adds padding inside the resume container */
+  background-color: rgba(189, 251, 4, 1); /* Sets a light green background color */
+}
+
+/* Styles for the header section */
+.header {
+  text-align: center; /* Centers the header content */
+  margin-bottom: 30px; /* Adds space below the header */
+}
+
+/* Styles for the main heading in the header */
+.header h1 {
+  margin: 0; /* Removes default margin */
+  font-size: 2.5rem; /* Sets the font size for the main heading */
+}
+
+/* Styles for the contact information in the header */
+.header p {
+  font-size: 1rem; /* Sets the font size for contact details */
+}
+
+/* General styles for each section in the resume */
+.section {
+  margin-bottom: 20px; /* Adds spacing between sections */
+}
+
+/* Styles for section headings */
+.section h2 {
+  font-size: 1.5rem; /* Sets the font size for section titles */
+  margin-bottom: 10px; /* Adds space below the section title */
+}
+
+/* Styles for subheadings in the education and projects sections */
+.education h3,
+.projects h3 {
+  margin: 0; /* Removes default margin */
+  font-size: 1.2rem; /* Sets the font size for subheadings */
+}
+
+/* Styles for text paragraphs in education, projects, skills, and experience sections */
+.education p,
+.projects p
+.skills
+.experience {
+  margin: 5px 0; /* Adds spacing between paragraphs */
+}
+
+/* Styles for links in the projects section */
+.projects a {
+  color: #007acc; /* Sets the link color to blue */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Hover effect for links in the projects section */
+.projects a:hover {
+  text-decoration: underline; /* Adds underline when hovering over links */
+}
