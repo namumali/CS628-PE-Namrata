@@ -1,0 +1,109 @@
+/* Centering the entire page content */
+/* Center the content within the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically centers content */
+  height: 100vh;  /* Ensures the content is vertically centered */
+  flex-direction: column;
+  overflow: auto;
+}
+
+/* Center the heading */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+/* Styling for the MovieList container */
+.movie-list {
+  width: 80%;
+  max-width: 900px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start; /* Added to align cards vertically */
+}
+
+/* Dropdown styling - Centered */
+.select-genre {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px; /* Set a fixed width for the dropdown */
+  display: block; /* Make it block level to be centered */
+  margin-left: auto;
+  margin-right: auto; /* This centers the dropdown */
+}
+
+/* Movie card styles */
+.movie-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;  /* Adjusted to have space between cards */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Set a max width for the cards */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.movie-card h2 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.movie-card p {
+  color: #555;
+  font-size: 16px;
+}
+
+.movie-card button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.movie-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the content inside the dropdown container */
+.dropdown-container {
+  display: flex;
+  justify-content: center;  /* Horizontally centers the dropdown */
+  align-items: center;      /* Vertically centers the dropdown */
+  margin-top: 20px;         /* Adds some space above */
+  margin-bottom: 20px;      /* Adds some space below */
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;  /* Set a fixed width for the dropdown */
+}
+
