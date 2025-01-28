@@ -1,0 +1,43 @@
+.app {
+  max-width: 400px; /* Set maximum width of the app */
+  margin: auto; /* Center the app in the viewport */
+  padding: 20px; /* Add padding around the content */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Round the corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+}
+
+input {
+  width: 70%; /* Set input width */
+  padding: 10px; /* Add padding */
+  margin-right: 10px; /* Add margin to the right */
+}
+
+button {
+  padding: 10px; /* Add padding to the button */
+  background-color: #28a745; /* Set button background color */
+  color: white; /* Set button text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #218838; /* Darken button on hover */
+}
+
+.todo-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.todo-item {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly */
+  padding: 10px; /* Add padding */
+  border-bottom: 1px solid #ddd; /* Add border between items */
+}
