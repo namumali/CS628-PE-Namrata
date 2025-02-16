@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.city-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.city-list li {
+  margin-bottom: 10px;
+}
+
+.add-city-button {
+  display: block;
+  margin-top: 20px;
+}
+
+.city-details {
+  text-align: center;
+}
+
+.add-city form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-city input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.add-city button {
+  background-color: #007BFF;
+}
+
+.add-city button:hover {
+  background-color: #0056b3;
+}
