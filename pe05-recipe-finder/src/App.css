@@ -1,0 +1,252 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Recipe List Page */
+.recipe-list-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.recipe-item {
+  background: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.recipe-item:hover {
+  transform: scale(1.02);
+}
+
+.recipe-item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.add-recipe-link {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 15px;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.add-recipe-link:hover {
+  background: #218c53;
+}
+
+/* Recipe Details Page */
+.recipe-details-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.recipe-details-container h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.recipe-details-container p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+button, .button-group a {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+}
+
+button:hover, .button-group a:hover {
+  transform: scale(1.05);
+}
+
+button.delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+/* Add & Edit Recipe Pages */
+.recipe-form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.recipe-form-container input,
+.recipe-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.recipe-form-container button {
+  width: 100%;
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.recipe-form-container button:hover {
+  background: #2980b9;
+}
+
+/* Edit Recipe Page */
+.edit-recipe-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.edit-recipe-container h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.edit-recipe-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-recipe-container input,
+.edit-recipe-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.edit-recipe-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.edit-recipe-container button {
+  background: #3498db;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.edit-recipe-container button:hover {
+  background: #2980b9;
+}
+
+/* Add Recipe Page */
+.add-recipe-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.add-recipe-container h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.add-recipe-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-recipe-container input,
+.add-recipe-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-recipe-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.add-recipe-container button {
+  background: #27ae60;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.add-recipe-container button:hover {
+  background: #219150;
+  transform: scale(1.05);
+}
